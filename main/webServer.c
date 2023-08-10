@@ -2,32 +2,6 @@
 #define PASS     "wifi1373"
 const char *TAG = "ESP32 Server";
 
-/* URI handler structure for GET /uri */
-httpd_uri_t uri_get = {
-    .uri = "/",
-    .method = HTTP_GET,
-    .handler = get_handler,
-    .user_ctx = NULL};
-
-httpd_uri_t uri_on = {
-    .uri      = "/on",
-    .method   = HTTP_GET,
-    .handler  = on_handler,
-    .user_ctx = NULL
-};
-httpd_uri_t uri_off = {
-    .uri      = "/off",
-    .method   = HTTP_GET,
-    .handler  = off_handler,
-    .user_ctx = NULL
-};
-
-httpd_uri_t uri_get_input = {
-    .uri = "/get",
-    .method = HTTP_GET,
-    .handler = get_handler_str,
-    .user_ctx = NULL};
-
 
 
 //was static:

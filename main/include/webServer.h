@@ -28,9 +28,9 @@ esp_err_t on_handler(httpd_req_t *req);
 esp_err_t off_handler(httpd_req_t *req);
 esp_err_t get_handler_str(httpd_req_t *req);
 
-int led_state = 0;
 
-/* URI handler structure for GET /uri */
+
+/* URI handler structure for GET /uri*/ 
 httpd_uri_t uri_get = {
     .uri = "/",
     .method = HTTP_GET,
