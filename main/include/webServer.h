@@ -30,6 +30,7 @@ esp_err_t get_handler_str(httpd_req_t *req);
 //httpd_uri_t uri_off;
 //httpd_uri_t uri_get_input;
 
+<<<<<<< HEAD
 /* URI handler structure for GET /uri 
 httpd_uri_t uri_get = {
     .uri = "/",
@@ -56,6 +57,8 @@ httpd_uri_t uri_get_input = {
     .handler = get_handler_str,
     .user_ctx = NULL};
 */
+=======
+>>>>>>> 66b0bae8587275251114e42b29c47117e3a0cfe2
 
 httpd_handle_t start_webserver(void);
 void stop_webserver(httpd_handle_t server);
