@@ -1,5 +1,5 @@
-#define SSID     "hwa"
-#define PASS     "wifi1373"
+#define SSID     "yourssid"
+#define PASS     "password"
 const char *TAG = "ESP32 Server";
 
 
